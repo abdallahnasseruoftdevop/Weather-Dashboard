@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <div id="header">
+        <h2 id="mainText">Weather Dashboard</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <h3><b>Search for a City:</b></h3>
+                <div class="form-group">
+                    <input id="search" type="text" class="form-control form-control-lg" placeholder="San Diego">
+                    <button id="searchbtn" type="button" class="btn btn-primary  btn-block">Search</button>
+                    <hr>
+                    <div id="cities">
+                        <!--button row-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div id="weatherText" class="col-lg-12">
+                        <h3><b><label id="cityName">Atlanta </label>&nbsp;&nbsp;<span class="day0Date"></span></b><img class="img0" src="./images/sun.png"></h3>
+                        <br>
+                        <p><b>TEMP: <span class="day0temp">76.62 &#8457;;</span></b></p>
+                        <p><b>Wind: <span class="day0Wind">8.43 MPH </span></b></p>
+                        <p><b>Humidity: <span class="day0Humidity">44% </span></b></p><br>
+                    </div>
+                    <h4><b>5-Day Forecast:</b></h4>
+
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="day0Date card-title">9/14/2022</h5>
+                            <img class="img0" src="./images/sun.png">
+                            <p><br><b> TEMP: <span class="day0temp"> 76.62 &#8457;;</span></b></p>
+                            <p><b>Wind: <span class="day0Wind"> 8.43 MPH </span></b></p>
+                            <p><b>Humidity: <span class="day0Humidity"> 44% </span></b></p><br>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 id="day1Date" class="card-title">9/14/2022</h5>
+                            <img id="img1" src="./images/sun.png">
+                            <p><br> <b>TEMP: <span id="day1temp"> 76.62 &#8457;;</span></b></p>
+                            <p><b>Wind: <span id="day1Wind"> 8.43 MPH </span></b></p>
+                            <p><b>Humidity: <span id="day1Humidity"> 44% </span></b></p><br>
+                        </div>
+
+
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 id="day2Date" class="card-title">9/14/2022</h5>
+                            <img id="img2" src="./images/sun.png">
+                            <p><br><b> TEMP: <span id="day2temp"> 76.62 &#8457;;</span></b></p>
+                            <p><b>Wind: <span id="day2Wind"> 8.43 MPH </span></b></p>
+                            <p><b>Humidity: <span id="day2Humidity"> 44% </span></b></p><br>
+                        </div>
+
+
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 id="day3Date" class="card-title">9/14/2022</h5>
+                            <img id="img3" src="./images/sun.png">
+                            <p><br><b> TEMP: <span id="day3temp"> 76.62 &#8457;;</span></b></p>
+                            <p><b>Wind: <span id="day3Wind"> 8.43 MPH </span></b></p>
+                            <p><b>Humidity: <span id="day3Humidity"> 44% </span></b></p><br>
+                        </div>
+
+
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 id="day4Date" class="card-title">9/14/2022</h5>
+                            <img id="img4" src="./images/sun.png">
+                            <p><br><b>TEMP: <span id="day4temp"> 76.62 &#8457;;</span></b></p>
+                            <p><b>Wind: <span id="day4Wind"> 8.43 MPH </span></b></p>
+                            <p><b>Humidity: <span id="day4Humidity"> 44% </span></b></p><br>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+            <script src="./script.js"></script>
+</body>
+
+</html>

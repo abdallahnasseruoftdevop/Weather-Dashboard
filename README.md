@@ -1,4 +1,4 @@
-Welcome to the 5 Day Weather Show!
+#Weather Application
 
 This application allows you to view the weather forecast for a given city over the next 5 days.
 
